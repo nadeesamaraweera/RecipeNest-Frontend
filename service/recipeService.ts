@@ -11,7 +11,7 @@ export const recipeService = {
         return response.data;
     },
     async getRecipeDetails(id: number): Promise<RecipeDetails> {
-        const apiKey = 'toKFUFuj116Loq4SnFCSkPRsHIQVGZkG';
+        const apiKey = 'b6c60e740b747729666d1c054e494e9';
         const response = await axios.get(`https://api.spoonacular.com/recipes/${id}/information`, {
             params: {apiKey}
         });
